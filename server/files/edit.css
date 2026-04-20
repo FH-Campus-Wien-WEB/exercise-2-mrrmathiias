@@ -1,11 +1,60 @@
 @import url(base.css);
 
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+form {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+div {
+  margin: 8px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
 input,
 select,
 textarea {
   width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-family: inherit;
 }
 
-div {
-  margin: 4px 0px;
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 8px;
+  font-family: inherit;
+}
+
+button:last-of-type {
+  background-color: #6c757d;
+}
+
+button:hover {
+  opacity: 0.9;
 }
